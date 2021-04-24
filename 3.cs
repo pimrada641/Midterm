@@ -7,7 +7,7 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
             string mode = Console.ReadLine();
-            float filmBackWidth = 0;
+            float filmBackWidth = Console.ReadLine();
             while (filmBackWidth <= 0)
             {
                 filmBackWidth = float.Parse(Console.ReadLine());
